@@ -146,6 +146,16 @@ body {
   word-spacing: 4px;
 }
 
+.portada .portada__texto {
+  font-size: 250%;
+  color: #f2e6d9;
+  font-family: 'Bitter', serif;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+}
+
 /*---TIENDA---*/
 .tienda {
   height: 194rem;
