@@ -21,7 +21,7 @@
     }
   
     .portada__titluno {
-      color: red;
+      color: $titulos;
       font-size: 440%;
       font-family: 'Bitter', serif;
       font-weight: 300;
@@ -32,17 +32,7 @@
   
     .portada__titldos {
       font-size: 380%;
-      color: red;
-      font-family: 'Bitter', serif;
-      font-weight: 300;
-      font-style: italic;
-      letter-spacing: 2px;
-      word-spacing: 4px;
-    }
-
-    .portada__texto {
-      font-size: 250%;
-      color: red;
+      color: $titulos;
       font-family: 'Bitter', serif;
       font-weight: 300;
       font-style: italic;
