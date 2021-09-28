@@ -127,7 +127,7 @@ body {
 }
 
 .portada .portada__titluno {
-  color: #f2e6d9;
+  color: red;
   font-size: 440%;
   font-family: 'Bitter', serif;
   font-weight: 300;
@@ -138,7 +138,7 @@ body {
 
 .portada .portada__titldos {
   font-size: 380%;
-  color: #f2e6d9;
+  color: red;
   font-family: 'Bitter', serif;
   font-weight: 300;
   font-style: italic;
@@ -148,7 +148,7 @@ body {
 
 .portada .portada__texto {
   font-size: 250%;
-  color: #f2e6d9;
+  color: red;
   font-family: 'Bitter', serif;
   font-weight: 300;
   font-style: italic;
