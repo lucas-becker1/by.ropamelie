@@ -24,6 +24,7 @@
   .header {
     background-image: url(../img/opac.png);
     background-size: cover;
+    box-shadow: 5px 2px 15px -1px rgba(196, 0, 0, 0.753);
   
     .header__logoAmelie {
       padding: 0.3rem 2.5rem;
@@ -48,7 +49,7 @@
   
       &:hover {
         color: #e4cdb4;
-        background-color: #431b09ee;
+        background-color: #3d1907c9;
       }
     }
   }
