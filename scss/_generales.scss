@@ -9,7 +9,6 @@
     font-size: 62.5%;
     font-family: 'Enriqueta', serif;
     font-weight: 400;
-    scroll-behavior: smooth;
   }
   
   body {
@@ -17,14 +16,15 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow-x: hidden;
+    min-width: 100vh;
+    min-height: 100vh;
   }
   
   /*---NAV---*/
   .header {
     background-image: url(../img/opac.png);
     background-size: cover;
-    box-shadow: 5px 2px 15px -1px rgba(196, 0, 0, 0.753);
+    box-shadow: 5px 2px 15px -1px #170903;
   
     .header__logoAmelie {
       padding: 0.3rem 2.5rem;
@@ -37,8 +37,7 @@
       }
   
       color: $rosa;
-      font-family: 'Enriqueta',
-      serif;
+      font-family: 'Enriqueta', serif;
       font-weight: 400;
       font-size: 160%;
       letter-spacing: 1px;
@@ -59,6 +58,7 @@
     background-image: url(../img/opac.png);
     background-size: cover;
     text-align: center;
+    box-shadow: 5px 2px 15px -1px #170903;
   
     .footer__titulo {
       font-family: 'Enriqueta', serif;

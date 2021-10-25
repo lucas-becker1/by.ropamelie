@@ -11,7 +11,6 @@ html {
   font-size: 62.5%;
   font-family: 'Enriqueta', serif;
   font-weight: 400;
-  scroll-behavior: smooth;
 }
 
 body {
@@ -19,15 +18,16 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  overflow-x: hidden;
+  min-width: 100vh;
+  min-height: 100vh;
 }
 
 /*---NAV---*/
 .header {
   background-image: url(../img/opac.png);
   background-size: cover;
-  -webkit-box-shadow: 5px 2px 15px -1px rgba(196, 0, 0, 0.753);
-          box-shadow: 5px 2px 15px -1px rgba(196, 0, 0, 0.753);
+  -webkit-box-shadow: 5px 2px 15px -1px #170903;
+          box-shadow: 5px 2px 15px -1px #170903;
 }
 
 .header .header__logoAmelie {
@@ -36,7 +36,7 @@ body {
 
 .header .navbar-dark .navbar-nav .nav-link {
   color: #dab692;
-  font-family: 'Enriqueta', serif;
+  font-family: 'Enriqueta', serif;
   font-weight: 400;
   font-size: 160%;
   letter-spacing: 1px;
@@ -61,6 +61,8 @@ body {
   background-image: url(../img/opac.png);
   background-size: cover;
   text-align: center;
+  -webkit-box-shadow: 5px 2px 15px -1px #170903;
+          box-shadow: 5px 2px 15px -1px #170903;
 }
 
 .footer .footer__titulo {
@@ -126,7 +128,7 @@ body {
 
 .portada .portada__logo {
   padding: 3rem;
-  width: 40%;
+  height: 35rem;
 }
 
 .portada .portada__titluno {
@@ -404,6 +406,27 @@ body {
 
 .contacto .contacto__form .form-check .form-check-label {
   padding: 0.1rem 0.8rem 0rem 0.8rem;
+}
+
+@media (max-width: 767.98px) {
+  .portada .portada__logo {
+    height: 30rem;
+  }
+  .tienda {
+    height: 282rem;
+  }
+  .sale {
+    height: 156rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .portada .portada__logo {
+    height: 25rem;
+  }
+  .comoComprar .comoComprar__containerPasos {
+    width: 60rem;
+  }
 }
 
 /*---ERROR---*/
