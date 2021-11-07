@@ -11,7 +11,6 @@ html {
   font-size: 62.5%;
   font-family: 'Enriqueta', serif;
   font-weight: 400;
-  width: 100%;
 }
 
 body {
@@ -19,8 +18,12 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-width: 100vh;
-  min-height: 100vh;
+}
+
+.contenedor {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 /*---NAV---*/
@@ -37,7 +40,7 @@ body {
 
 .header .navbar-dark .navbar-nav .nav-link {
   color: #dab692;
-  font-family: 'Enriqueta', serif;
+  font-family: 'Enriqueta', serif;
   font-weight: 400;
   font-size: 160%;
   letter-spacing: 1px;
@@ -111,7 +114,7 @@ body {
 }
 /*---INICIO---*/
 .portada {
-  height: 100vh;
+  height: 80rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -409,7 +412,10 @@ body {
   padding: 0.1rem 0.8rem 0rem 0.8rem;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 991px) {
+  .portada {
+    height: 70rem;
+  }
   .portada .portada__logo {
     height: 30rem;
   }
@@ -419,14 +425,329 @@ body {
   .sale {
     height: 156rem;
   }
+  .comoComprar {
+    height: 85rem;
+  }
+  .comoComprar .comoComprar__containerPasos {
+    width: 70rem;
+  }
+  .contacto {
+    height: 71rem;
+  }
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 767px) {
+  .header .header__logoAmelie .logoMini {
+    height: 5rem;
+  }
+  .footer .footer__titulo {
+    font-size: 175%;
+  }
+  .footer ul li a {
+    font-size: 115%;
+  }
+  .footer .footer__copy {
+    font-size: 95%;
+  }
+  .portada {
+    height: 65rem;
+  }
   .portada .portada__logo {
     height: 25rem;
   }
+  .portada .portada__titluno {
+    font-size: 400%;
+  }
+  .portada .portada__titldos {
+    font-size: 340%;
+  }
+  .tienda {
+    height: 277rem;
+  }
+  .tienda .tienda__titlTienda {
+    font-size: 430%;
+  }
+  .tienda .tienda__productos article h4 {
+    font-size: 190%;
+  }
+  .sale {
+    height: 154rem;
+  }
+  .sale .sale__titlSale {
+    font-size: 430%;
+  }
+  .sale .sale__tempInv {
+    font-size: 230%;
+  }
+  .sale .sale__ofertas article h4 {
+    font-size: 190%;
+  }
+  .comoComprar {
+    height: 80rem;
+  }
+  .comoComprar .comoComprar__comCom {
+    font-size: 430%;
+  }
   .comoComprar .comoComprar__containerPasos {
-    width: 60rem;
+    width: 50rem;
+  }
+  .comoComprar .comoComprar__containerPasos h3 {
+    font-size: 250%;
+  }
+  .comoComprar .comoComprar__containerPasos p {
+    font-size: 180%;
+  }
+  .contacto {
+    height: 68rem;
+  }
+  .contacto .contacto__titlContacto {
+    font-size: 430%;
+  }
+  .contacto .contacto__form {
+    width: 55rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .header .header__logoAmelie .logoMini {
+    height: 4.5rem;
+  }
+  .footer .footer__titulo {
+    font-size: 160%;
+  }
+  .footer ul li a {
+    font-size: 100%;
+  }
+  .footer .footer__copy {
+    font-size: 80%;
+  }
+  .portada {
+    height: 55rem;
+  }
+  .portada .portada__logo {
+    height: 20rem;
+  }
+  .portada .portada__titluno {
+    font-size: 360%;
+  }
+  .portada .portada__titldos {
+    font-size: 300%;
+  }
+  .tienda {
+    height: 274rem;
+  }
+  .tienda .tienda__titlTienda {
+    font-size: 400%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .tienda .tienda__productos article h4 {
+    font-size: 185%;
+  }
+  .sale {
+    height: 149rem;
+  }
+  .sale .sale__titlSale {
+    font-size: 400%;
+    padding-top: 4rem;
+    padding-bottom: 1.5rem;
+  }
+  .sale .sale__tempInv {
+    font-size: 200%;
+    padding-bottom: 4rem;
+  }
+  .sale .sale__ofertas article h4 {
+    font-size: 185%;
+  }
+  .comoComprar {
+    height: 76rem;
+  }
+  .comoComprar .comoComprar__comCom {
+    font-size: 400%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .comoComprar .comoComprar__containerPasos {
+    width: 45rem;
+  }
+  .comoComprar .comoComprar__containerPasos h3 {
+    font-size: 235%;
+  }
+  .comoComprar .comoComprar__containerPasos p {
+    font-size: 165%;
+  }
+  .contacto {
+    height: 67rem;
+  }
+  .contacto .contacto__titlContacto {
+    font-size: 400%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .contacto .contacto__form {
+    width: 45rem;
+  }
+}
+
+@media (max-width: 458px) {
+  .header .header__logoAmelie .logoMini {
+    height: 4rem;
+  }
+  .footer .footer__titulo {
+    font-size: 150%;
+  }
+  .footer ul li a {
+    font-size: 90%;
+  }
+  .footer .footer__copy {
+    font-size: 80%;
+  }
+  .portada {
+    height: 48rem;
+  }
+  .portada .portada__logo {
+    height: 17rem;
+  }
+  .portada .portada__titluno {
+    font-size: 320%;
+  }
+  .portada .portada__titldos {
+    font-size: 260%;
+  }
+  .tienda {
+    height: 272rem;
+  }
+  .tienda .tienda__titlTienda {
+    font-size: 380%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .tienda .tienda__productos article h4 {
+    font-size: 175%;
+  }
+  .sale {
+    height: 146rem;
+  }
+  .sale .sale__titlSale {
+    font-size: 380%;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+  .sale .sale__tempInv {
+    font-size: 200%;
+    padding-bottom: 3rem;
+  }
+  .sale .sale__ofertas article h4 {
+    font-size: 175%;
+  }
+  .comoComprar {
+    height: 76rem;
+  }
+  .comoComprar .comoComprar__comCom {
+    font-size: 380%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .comoComprar .comoComprar__containerPasos {
+    width: 40rem;
+  }
+  .comoComprar .comoComprar__containerPasos h3 {
+    font-size: 230%;
+  }
+  .comoComprar .comoComprar__containerPasos p {
+    font-size: 160%;
+  }
+  .contacto {
+    height: 64rem;
+  }
+  .contacto .contacto__titlContacto {
+    font-size: 380%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .contacto .contacto__form {
+    width: 40rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .header .header__logoAmelie .logoMini {
+    height: 3.7rem;
+  }
+  .footer .footer__titulo {
+    font-size: 150%;
+  }
+  .footer ul li a {
+    font-size: 90%;
+  }
+  .footer .footer__copy {
+    font-size: 80%;
+  }
+  .portada {
+    height: 46rem;
+  }
+  .portada .portada__logo {
+    height: 16rem;
+  }
+  .portada .portada__titluno {
+    font-size: 310%;
+  }
+  .portada .portada__titldos {
+    font-size: 250%;
+  }
+  .tienda {
+    height: 271rem;
+  }
+  .tienda .tienda__titlTienda {
+    font-size: 370%;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+  .tienda .tienda__productos article h4 {
+    font-size: 170%;
+  }
+  .sale {
+    height: 145rem;
+  }
+  .sale .sale__titlSale {
+    font-size: 370%;
+    padding-top: 2.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .sale .sale__tempInv {
+    font-size: 190%;
+    padding-bottom: 2.5rem;
+  }
+  .sale .sale__ofertas article h4 {
+    font-size: 170%;
+  }
+  .comoComprar {
+    height: 73rem;
+  }
+  .comoComprar .comoComprar__comCom {
+    font-size: 370%;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+  .comoComprar .comoComprar__containerPasos {
+    width: 33rem;
+  }
+  .comoComprar .comoComprar__containerPasos h3 {
+    font-size: 220%;
+  }
+  .comoComprar .comoComprar__containerPasos p {
+    font-size: 150%;
+  }
+  .contacto {
+    height: 61rem;
+  }
+  .contacto .contacto__titlContacto {
+    font-size: 370%;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+  .contacto .contacto__form {
+    width: 33rem;
   }
 }
 

@@ -1,42 +1,42 @@
 /*---INICIO---*/
 .portada {
-    height: $alto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  
-    .portada__logo {
-      padding: 3rem;
-      height: 35rem;
-    }
-  
-    .portada__titluno {
-      color: $titulos;
-      font-size: 440%;
-      font-family: 'Bitter', serif;
-      font-weight: 300;
-      font-style: italic;
-      letter-spacing: 2px;
-      word-spacing: 4px;
-    }
-  
-    .portada__titldos {
-      font-size: 380%;
-      color: $titulos;
-      font-family: 'Bitter', serif;
-      font-weight: 300;
-      font-style: italic;
-      letter-spacing: 2px;
-      word-spacing: 4px;
-    }
+  height: 80rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  .portada__logo {
+    padding: 3rem;
+    height: 35rem;
   }
+
+  .portada__titluno {
+    color: $titulos;
+    font-size: 440%;
+    font-family: 'Bitter', serif;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+  }
+
+  .portada__titldos {
+    font-size: 380%;
+    color: $titulos;
+    font-family: 'Bitter', serif;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+  }
+}

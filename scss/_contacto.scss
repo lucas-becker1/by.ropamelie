@@ -1,51 +1,51 @@
 /*---CONTACTO---*/
 .contacto {
-    height: 80rem;
-    text-align: center;
-  
-    .contacto__titlContacto {
-      color: $titulos;
-      font-family: 'Bitter', serif;
-      font-size: 500%;
-      font-weight: 400;
-      font-style: italic;
-      padding-top: 5rem;
-      padding-bottom: 5rem;
-    }
-  
-    .contacto__form {
-      width: 60rem;
-      background-color: #e5ccb3d5;
-      border: 2px $marron solid;
-      color: $marron;
-      font-size: 150%;
-      font-family: 'Bitter', serif;
-      margin: auto;
-      padding: 1.5rem;
-  
-      .form-group {
-        padding: 1rem;
-  
-        .btn-light {
-          color: $marron;
-          background-color: #f2e6d9;
-          font-size: 110%;
-          border: 1px $titulos solid;
-        }
+  height: 80rem;
+  text-align: center;
+
+  .contacto__titlContacto {
+    color: $titulos;
+    font-family: 'Bitter', serif;
+    font-size: 500%;
+    font-weight: 400;
+    font-style: italic;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .contacto__form {
+    width: 60rem;
+    background-color: #e5ccb3d5;
+    border: 2px $marron solid;
+    color: $marron;
+    font-size: 150%;
+    font-family: 'Bitter', serif;
+    margin: auto;
+    padding: 1.5rem;
+
+    .form-group {
+      padding: 1rem;
+
+      .btn-light {
+        color: $marron;
+        background-color: #f2e6d9;
+        font-size: 110%;
+        border: 1px $titulos solid;
       }
-  
-      .form-check {
-        padding: 0.5rem 1rem;
-        display: flex;
-        align-items: center;
-  
-        .form-check-input {
-          margin: 0;
-        }
-  
-        .form-check-label {
-          padding: 0.1rem 0.8rem 0rem 0.8rem;
-        }
+    }
+
+    .form-check {
+      padding: 0.5rem 1rem;
+      display: flex;
+      align-items: center;
+
+      .form-check-input {
+        margin: 0;
+      }
+
+      .form-check-label {
+        padding: 0.1rem 0.8rem 0rem 0.8rem;
       }
     }
   }
+}
