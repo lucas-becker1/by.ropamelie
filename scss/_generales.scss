@@ -29,7 +29,7 @@ body {
   background-color: black;
   box-shadow: 5px 2px 8px -1px black;
 
-  .header__logoAmelie {
+  .header__logoPrincipal {
     padding: 0.3rem 2.5rem;
   }
 
@@ -53,6 +53,10 @@ body {
       color: white;
       background-color: rgb(27, 27, 27);
     }
+  }
+
+  .header__logo {
+    padding: 0.3rem 2rem;
   }
 }
 
