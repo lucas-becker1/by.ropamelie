@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  background-image: url(../img/fondo.png);
+  background-color: rgb(212, 212, 212);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -26,9 +26,8 @@ body {
 
 /*---NAV---*/
 .header {
-  background-image: url(../img/opac.png);
-  background-size: cover;
-  box-shadow: 5px 2px 15px -1px #170903;
+  background-color: black;
+  box-shadow: 5px 2px 8px -1px black;
 
   .header__logoAmelie {
     padding: 0.3rem 2.5rem;
@@ -36,15 +35,14 @@ body {
 
   .navbar-dark .navbar-nav .nav-link {
     &.active {
-      color: #ebd9c6;
+      color: white;
       font-weight: 500;
     }
 
-    color: $rosa;
-    font-family: 'Enriqueta',
-    serif;
+    color: rgb(212, 212, 212);
+    font-family: 'Rubik', sans-serif;
     font-weight: 400;
-    font-size: 160%;
+    font-size: 220%;
     letter-spacing: 1px;
     padding: 1rem 2.5rem;
     -webkit-transition: all 0.3s linear;
@@ -52,24 +50,23 @@ body {
     border-radius: 5px;
 
     &:hover {
-      color: #e4cdb4;
-      background-color: #3d1907c9;
+      color: white;
+      background-color: rgb(27, 27, 27);
     }
   }
 }
 
 /*---FOOTER---*/
 .footer {
-  background-image: url(../img/opac.png);
-  background-size: cover;
+  background-color: black;
   text-align: center;
-  box-shadow: 5px 2px 15px -1px #170903;
+  box-shadow: 5px 2px 8px -1px black;
 
   .footer__titulo {
-    font-family: 'Enriqueta', serif;
+    font-family: 'Rubik', sans-serif;
     font-weight: 400;
-    font-size: 190%;
-    color: $rosa;
+    font-size: 200%;
+    color: rgb(212, 212, 212);
     letter-spacing: 1px;
     word-spacing: 2px;
   }
@@ -81,9 +78,9 @@ body {
       margin-top: 1rem;
 
       a {
-        font-family: 'Enriqueta', serif;
+        font-family: 'Rubik', sans-serif;
         font-weight: 400;
-        color: $rosa;
+        color: rgb(212, 212, 212);
         text-decoration: none;
         text-transform: uppercase;
         font-size: 120%;
@@ -102,7 +99,7 @@ body {
   }
 
   .footer__copy {
-    color: #dab69279;
+    color: rgb(100, 100, 100);
     font-size: 110%;
     letter-spacing: 1px;
     word-spacing: 2px;

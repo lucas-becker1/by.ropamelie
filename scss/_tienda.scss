@@ -1,72 +1,67 @@
 /*---TIENDA---*/
 .tienda {
-  height: 194rem;
+  height: 175rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 
   .tienda__titlTienda {
-    color: $titulos;
-    font-size: 500%;
-    font-family: 'Bitter', serif;
-    font-weight: 400;
-    font-style: italic;
+    color: black;
+    font-size: 550%;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    word-spacing: 3px;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    text-align: center;
-  }
 
-  .tienda__productos article {
-    border: 1px $marron solid;
-    background-color: #e5ccb3d5;
-    max-width: 28rem;
+    .tienda__productos article {
+      border: 2px black solid;
+      background-color: whitesmoke;
+      width: 39rem;
 
-    h4 {
-      color: $marron;
-      font-family: 'Bitter', serif;
-      font-size: 200%;
-      font-weight: 400;
-      letter-spacing: 0px;
-      word-spacing: 2px;
+      h4 {
+        color: black;
+        font-family: 'Rubik', sans-serif;
+        font-size: 250%;
+        font-weight: 400;
+        letter-spacing: 0px;
+        word-spacing: 2px;
 
-      &.card-title {
-        margin: 0;
-        padding-bottom: 0.6rem;
+        &.card-title {
+          margin: 0;
+        }
       }
-    }
-
-    img {
-      height: 25rem;
-      -webkit-transition: -webkit-transform .2s;
-      transition: -webkit-transform .2s;
-      transition: transform .2s;
-      transition: transform .2s, -webkit-transform .2s;
-
-      &:hover {
-        -webkit-transform: scale(1.5);
-        transform: scale(1.5);
-      }
-    }
-
-    p {
-      color: $marron;
-      font-family: 'Bitter', serif;
-      font-size: 200%;
-      font-weight: 400;
-
-      &.card-text {
-        margin: 0;
-        padding: 0.6rem;
-      }
-    }
-
-    div.card-body {
-      padding: 0;
-    }
-
-    .btn-light {
-      color: $marron;
-      background-color: #f2e6d9;
-      font-family: 'Bitter', serif;
-      font-size: 115%;
-      border: 1px $titulos solid;
     }
   }
 }
+
+.shirt {
+  width: 36rem;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+
+  &:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+
+  p {
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    font-size: 300%;
+    font-weight: 500;
+    }
+  }

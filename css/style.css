@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;0,400;1,300;1,400&family=Enriqueta:wght@400;500&family=Playfair+Display:ital@0;1&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -14,7 +13,7 @@ html {
 }
 
 body {
-  background-image: url(../img/fondo.png);
+  background-color: #d4d4d4;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,10 +27,9 @@ body {
 
 /*---NAV---*/
 .header {
-  background-image: url(../img/opac.png);
-  background-size: cover;
-  -webkit-box-shadow: 5px 2px 15px -1px #170903;
-          box-shadow: 5px 2px 15px -1px #170903;
+  background-color: black;
+  -webkit-box-shadow: 5px 2px 8px -1px black;
+          box-shadow: 5px 2px 8px -1px black;
 }
 
 .header .header__logoAmelie {
@@ -39,10 +37,10 @@ body {
 }
 
 .header .navbar-dark .navbar-nav .nav-link {
-  color: #dab692;
-  font-family: 'Enriqueta', serif;
+  color: #d4d4d4;
+  font-family: 'Rubik', sans-serif;
   font-weight: 400;
-  font-size: 160%;
+  font-size: 220%;
   letter-spacing: 1px;
   padding: 1rem 2.5rem;
   -webkit-transition: all 0.3s linear;
@@ -51,29 +49,28 @@ body {
 }
 
 .header .navbar-dark .navbar-nav .nav-link.active {
-  color: #ebd9c6;
+  color: white;
   font-weight: 500;
 }
 
 .header .navbar-dark .navbar-nav .nav-link:hover {
-  color: #e4cdb4;
-  background-color: #3d1907c9;
+  color: white;
+  background-color: #1b1b1b;
 }
 
 /*---FOOTER---*/
 .footer {
-  background-image: url(../img/opac.png);
-  background-size: cover;
+  background-color: black;
   text-align: center;
-  -webkit-box-shadow: 5px 2px 15px -1px #170903;
-          box-shadow: 5px 2px 15px -1px #170903;
+  -webkit-box-shadow: 5px 2px 8px -1px black;
+          box-shadow: 5px 2px 8px -1px black;
 }
 
 .footer .footer__titulo {
-  font-family: 'Enriqueta', serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 400;
-  font-size: 190%;
-  color: #dab692;
+  font-size: 200%;
+  color: #d4d4d4;
   letter-spacing: 1px;
   word-spacing: 2px;
 }
@@ -87,9 +84,9 @@ body {
 }
 
 .footer ul li a {
-  font-family: 'Enriqueta', serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 400;
-  color: #dab692;
+  color: #d4d4d4;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 120%;
@@ -106,7 +103,7 @@ body {
 }
 
 .footer .footer__copy {
-  color: #dab69279;
+  color: #646464;
   font-size: 110%;
   letter-spacing: 1px;
   word-spacing: 2px;
@@ -114,7 +111,7 @@ body {
 }
 /*---INICIO---*/
 .portada {
-  height: 80rem;
+  height: 75rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -124,108 +121,128 @@ body {
   flex-direction: column;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center;
+  justify-content: start;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
 }
 
-.portada .portada__logo {
-  padding: 3rem;
-  height: 35rem;
-}
-
 .portada .portada__titluno {
-  color: #f2e6d9;
-  font-size: 440%;
-  font-family: 'Bitter', serif;
-  font-weight: 300;
-  font-style: italic;
-  letter-spacing: 2px;
-  word-spacing: 4px;
-}
-
-.portada .portada__titldos {
-  font-size: 380%;
-  color: #f2e6d9;
-  font-family: 'Bitter', serif;
-  font-weight: 300;
-  font-style: italic;
-  letter-spacing: 2px;
-  word-spacing: 4px;
-}
-
-/*---TIENDA---*/
-.tienda {
-  height: 194rem;
-}
-
-.tienda .tienda__titlTienda {
-  color: #f2e6d9;
-  font-size: 500%;
-  font-family: 'Bitter', serif;
-  font-weight: 400;
-  font-style: italic;
+  color: black;
+  font-size: 550%;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  word-spacing: 3px;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  text-align: center;
 }
 
-.tienda .tienda__productos article {
-  border: 1px #2e1305 solid;
-  background-color: #e5ccb3d5;
-  max-width: 28rem;
+.tienda__productos article {
+  border: 2px black solid;
+  background-color: whitesmoke;
+  width: 39rem;
 }
 
-.tienda .tienda__productos article h4 {
-  color: #2e1305;
-  font-family: 'Bitter', serif;
-  font-size: 200%;
+.tienda__productos article h4 {
+  color: black;
+  font-family: 'Rubik', sans-serif;
+  font-size: 250%;
   font-weight: 400;
   letter-spacing: 0px;
   word-spacing: 2px;
 }
 
-.tienda .tienda__productos article h4.card-title {
+.tienda__productos article h4.card-title {
   margin: 0;
-  padding-bottom: 0.6rem;
 }
 
-.tienda .tienda__productos article img {
-  height: 25rem;
+.tienda__productos article p {
+  color: black;
+  font-family: 'Rubik', sans-serif;
+  font-size: 300%;
+  font-weight: 500;
+}
+
+.tienda__productos article .shirt {
+  width: 36rem;
   -webkit-transition: -webkit-transform .2s;
   transition: -webkit-transform .2s;
   transition: transform .2s;
   transition: transform .2s, -webkit-transform .2s;
 }
 
-.tienda .tienda__productos article img:hover {
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
+.tienda__productos article .shirt:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
 }
 
-.tienda .tienda__productos article p {
-  color: #2e1305;
-  font-family: 'Bitter', serif;
-  font-size: 200%;
+/*---TIENDA---*/
+.tienda {
+  height: 175rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.tienda .tienda__titlTienda {
+  color: black;
+  font-size: 550%;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.tienda .tienda__titlTienda .tienda__productos article {
+  border: 2px black solid;
+  background-color: whitesmoke;
+  width: 39rem;
+}
+
+.tienda .tienda__titlTienda .tienda__productos article h4 {
+  color: black;
+  font-family: 'Rubik', sans-serif;
+  font-size: 250%;
   font-weight: 400;
+  letter-spacing: 0px;
+  word-spacing: 2px;
 }
 
-.tienda .tienda__productos article p.card-text {
+.tienda .tienda__titlTienda .tienda__productos article h4.card-title {
   margin: 0;
-  padding: 0.6rem;
 }
 
-.tienda .tienda__productos article div.card-body {
-  padding: 0;
+.shirt {
+  width: 36rem;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
 }
 
-.tienda .tienda__productos article .btn-light {
-  color: #2e1305;
-  background-color: #f2e6d9;
-  font-family: 'Bitter', serif;
-  font-size: 115%;
-  border: 1px #f2e6d9 solid;
+.shirt:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.shirt p {
+  color: black;
+  font-family: 'Rubik', sans-serif;
+  font-size: 300%;
+  font-weight: 500;
 }
 
 /*---SALE---*/
@@ -234,7 +251,7 @@ body {
 }
 
 .sale .sale__titlSale {
-  color: #f2e6d9;
+  color: black;
   font-family: 'Bitter', serif;
   font-size: 500%;
   font-weight: 400;
@@ -245,7 +262,7 @@ body {
 }
 
 .sale .sale__tempInv {
-  color: #f2e6d9;
+  color: black;
   font-family: 'Bitter', serif;
   padding-bottom: 5rem;
   font-style: italic;
@@ -255,13 +272,13 @@ body {
 }
 
 .sale .sale__ofertas article {
-  border: 1px #2e1305 solid;
+  border: 1px black solid;
   background-color: #e5ccb3d5;
   max-width: 28rem;
 }
 
 .sale .sale__ofertas article h4 {
-  color: #2e1305;
+  color: black;
   font-family: 'Bitter', serif;
   font-size: 220%;
   font-weight: 400;
@@ -288,7 +305,7 @@ body {
 }
 
 .sale .sale__ofertas article p {
-  color: #2e1305;
+  color: black;
   font-family: 'Bitter', serif;
   font-size: 200%;
   font-weight: 400;
@@ -304,11 +321,11 @@ body {
 }
 
 .sale .sale__ofertas article .btn-light {
-  color: #2e1305;
+  color: black;
   background-color: #f2e6d9;
   font-family: 'Bitter', serif;
   font-size: 115%;
-  border: 1px #f2e6d9 solid;
+  border: 1px black solid;
 }
 
 /*---COMOCOMPRAR---*/
@@ -318,7 +335,7 @@ body {
 }
 
 .comoComprar .comoComprar__comCom {
-  color: #f2e6d9;
+  color: black;
   font-family: 'Bitter', serif;
   font-size: 500%;
   font-weight: 400;
@@ -329,14 +346,14 @@ body {
 
 .comoComprar .comoComprar__containerPasos {
   background-color: #e5ccb3d5;
-  border: 2px #2e1305 solid;
+  border: 2px black solid;
   width: 85rem;
   margin: auto;
   padding: 1rem 2.5rem 2.5rem 2.5rem;
 }
 
 .comoComprar .comoComprar__containerPasos h3 {
-  color: #2e1305;
+  color: black;
   font-size: 280%;
   font-weight: 400;
   font-family: 'Bitter', serif;
@@ -347,7 +364,7 @@ body {
 }
 
 .comoComprar .comoComprar__containerPasos p {
-  color: #2e1305;
+  color: black;
   font-size: 200%;
   font-weight: 400;
   font-family: 'Bitter', serif;
@@ -358,27 +375,27 @@ body {
 
 /*---CONTACTO---*/
 .contacto {
-  height: 80rem;
+  height: 70rem;
   text-align: center;
 }
 
 .contacto .contacto__titlContacto {
-  color: #f2e6d9;
-  font-family: 'Bitter', serif;
-  font-size: 500%;
-  font-weight: 400;
-  font-style: italic;
+  color: black;
+  font-size: 550%;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  word-spacing: 3px;
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
 
 .contacto .contacto__form {
   width: 60rem;
-  background-color: #e5ccb3d5;
-  border: 2px #2e1305 solid;
-  color: #2e1305;
-  font-size: 150%;
-  font-family: 'Bitter', serif;
+  background-color: #cccccc;
+  border: 2px black solid;
+  color: black;
+  font-family: 'Rubik', sans-serif;
   margin: auto;
   padding: 1.5rem;
 }
@@ -388,10 +405,10 @@ body {
 }
 
 .contacto .contacto__form .form-group .btn-light {
-  color: #2e1305;
-  background-color: #f2e6d9;
-  font-size: 110%;
-  border: 1px #f2e6d9 solid;
+  color: black;
+  background-color: white;
+  font-size: 180%;
+  border: 2px black solid;
 }
 
 .contacto .contacto__form .form-check {
@@ -746,52 +763,5 @@ body {
   .contacto .contacto__form {
     width: 33rem;
   }
-}
-
-/*---ERROR---*/
-.error {
-  height: 80rem;
-  background-color: #461c07a6;
-  text-align: center;
-}
-
-.error .imagenError {
-  width: 45%;
-  padding: 5rem;
-}
-
-.error .error__perdido {
-  color: #f2e6d9;
-  font-family: 'Spartan';
-  font-weight: 500;
-  font-size: 360%;
-  letter-spacing: 0px;
-  word-spacing: 2px;
-  margin: 0rem 1rem 5rem 1rem;
-}
-
-.error .error__containerInicio {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.error .error__containerInicio a {
-  text-decoration: none;
-}
-
-.error .error__containerInicio .error__inicio {
-  color: #f2e6d9;
-  font-family: 'Spartan';
-  font-weight: 500;
-  font-size: 420%;
-  letter-spacing: 1px;
-  padding: 2rem;
-  -webkit-transition: all 0.1s linear;
-  transition: all 0.1s linear;
-}
-
-.error .error__containerInicio .error__inicio:hover {
-  opacity: 0.6;
 }
 /*# sourceMappingURL=style.css.map */

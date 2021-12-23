@@ -3,7 +3,7 @@
   height: 115rem;
 
   .sale__titlSale {
-    color: $titulos;
+    color: black;
     font-family: 'Bitter', serif;
     font-size: 500%;
     font-weight: 400;
@@ -14,7 +14,7 @@
   }
 
   .sale__tempInv {
-    color: $titulos;
+    color: black;
     font-family: 'Bitter', serif;
     padding-bottom: 5rem;
     font-style: italic;
@@ -24,12 +24,12 @@
   }
 
   .sale__ofertas article {
-    border: 1px $marron solid;
+    border: 1px black solid;
     background-color: #e5ccb3d5;
     max-width: 28rem;
 
     h4 {
-      color: $marron;
+      color: black;
       font-family: 'Bitter', serif;
       font-size: 220%;
       font-weight: 400;
@@ -56,7 +56,7 @@
     }
 
     p {
-      color: $marron;
+      color: black;
       font-family: 'Bitter', serif;
       font-size: 200%;
       font-weight: 400;
@@ -72,11 +72,11 @@
     }
 
     .btn-light {
-      color: $marron;
+      color: black;
       background-color: #f2e6d9;
       font-family: 'Bitter', serif;
       font-size: 115%;
-      border: 1px $titulos solid;
+      border: 1px black solid;
     }
   }
 }

@@ -4,7 +4,7 @@
   text-align: center;
 
   .comoComprar__comCom {
-    color: $titulos;
+    color: black;
     font-family: 'Bitter', serif;
     font-size: 500%;
     font-weight: 400;
@@ -15,13 +15,13 @@
 
   .comoComprar__containerPasos {
     background-color: #e5ccb3d5;
-    border: 2px $marron solid;
+    border: 2px black solid;
     width: 85rem;
     margin: auto;
     padding: 1rem 2.5rem 2.5rem 2.5rem;
 
     h3 {
-      color: $marron;
+      color: black;
       font-size: 280%;
       font-weight: 400;
       font-family: 'Bitter', serif;
@@ -32,7 +32,7 @@
     }
 
     p {
-      color: $marron;
+      color: black;
       font-size: 200%;
       font-weight: 400;
       font-family: 'Bitter', serif;
