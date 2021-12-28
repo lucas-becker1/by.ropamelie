@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
+
 * {
   margin: 0px;
   padding: 0px;
@@ -26,17 +27,17 @@ body {
 }
 
 /* NAV */
-.header {
+header {
   background-color: black;
   -webkit-box-shadow: 5px 2px 8px -1px black;
-          box-shadow: 5px 2px 8px -1px black;
+          box-shadow: 5px 2px 8px -1px black; 
 }
 
-.header .header__logoPrincipal {
+header .header__logoPrincipal {
   padding: 0.3rem 2.5rem;
 }
 
-.header .navbar-dark .navbar-nav .nav-link {
+header .navbar-dark .navbar-nav .nav-link {
   color: #d4d4d4;
   font-family: 'Rubik', sans-serif;
   font-weight: 400;
@@ -48,17 +49,17 @@ body {
   border-radius: 5px;
 }
 
-.header .navbar-dark .navbar-nav .nav-link.active {
+header .navbar-dark .navbar-nav .nav-link.active {
   color: white;
   font-weight: 500;
 }
 
-.header .navbar-dark .navbar-nav .nav-link:hover {
+header .navbar-dark .navbar-nav .nav-link:hover {
   color: white;
   background-color: #1b1b1b;
 }
 
-.header .header__logo {
+header .header__logo {
   padding: 0.3rem 2rem;
 }
 
@@ -116,7 +117,7 @@ body {
 
 /* INDEX */
 .portada {
-  height: 75rem;
+  height: 70rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -162,13 +163,6 @@ body {
   margin: 0;
 }
 
-.tienda__productos article p {
-  color: black;
-  font-family: 'Rubik', sans-serif;
-  font-size: 300%;
-  font-weight: 500;
-}
-
 .tienda__productos article .shirt {
   width: 36rem;
   -webkit-transition: -webkit-transform .2s;
@@ -209,45 +203,6 @@ body {
   word-spacing: 3px;
   padding-top: 5rem;
   padding-bottom: 5rem;
-}
-
-.tienda .tienda__titlTienda .tienda__productos article {
-  border: 2px black solid;
-  background-color: whitesmoke;
-  width: 39rem;
-}
-
-.tienda .tienda__titlTienda .tienda__productos article h4 {
-  color: black;
-  font-family: 'Rubik', sans-serif;
-  font-size: 250%;
-  font-weight: 400;
-  letter-spacing: 0px;
-  word-spacing: 2px;
-}
-
-.tienda .tienda__titlTienda .tienda__productos article h4.card-title {
-  margin: 0;
-}
-
-.shirt {
-  width: 36rem;
-  -webkit-transition: -webkit-transform .2s;
-  transition: -webkit-transform .2s;
-  transition: transform .2s;
-  transition: transform .2s, -webkit-transform .2s;
-}
-
-.shirt:hover {
-  -webkit-transform: scale(1.3);
-  transform: scale(1.3);
-}
-
-.shirt p {
-  color: black;
-  font-family: 'Rubik', sans-serif;
-  font-size: 300%;
-  font-weight: 500;
 }
 
 /* CONTACTO */
@@ -491,7 +446,6 @@ body {
   width: 38.6rem;
 }
 
-
 .product__title {
   color: black;
   font-family: 'Rubik', sans-serif;
@@ -511,16 +465,13 @@ body {
 }
 
 .product__icon {
+  width: 5rem;
   display: block;
-  margin-top: 1rem;
+  margin: 1rem;
 }
 
 .product:hover .product__icon {
   color: red;
-}
-
-.copy {
-  color: #555;
 }
 
 .button_modal {
@@ -529,10 +480,11 @@ body {
 }
 
 .btnCart {
+  color: black;
   border: none;
 }
 
-/* CARRITOS DE COMPRAS */
+/* CARRITO DE COMPRAS */
 .modal-content {
   position: relative;
   display: flex;

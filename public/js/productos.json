@@ -1,37 +1,37 @@
 [
     {
         "id": 1,
-        "nombre": "Ajax Third 21/22",
+        "nombre": "AJAX THIRD 21/22",
         "precio": 6500,
         "img": "./img/ajax.png"
     },
     {
         "id": 2,
-        "nombre": "Real Madrid Home 21/22",
+        "nombre": "REAL MADRID HOME 21/22",
         "precio": 7500,
         "img": "./img/real.png"
     },
     {
         "id": 3,
-        "nombre": "RB Leipzig Away 21/22",
+        "nombre": "RB LEIPZIG AWAY 21/22",
         "precio": 7000,
         "img": "./img/rbleipzig.png"
     },
     {
         "id": 4,
-        "nombre": "PSG Away 21/22",
+        "nombre": "PSG AWAY 21/22",
         "precio": 7000,
         "img": "./img/psg.png"
     },
     {
         "id": 5,
-        "nombre": "Borussia Away 21/22",
+        "nombre": "BORUSSIA AWAY 21/22",
         "precio": 7000,
         "img": "./img/borussia.png"
     },
     {
         "id": 6,
-        "nombre": "Napoli Third 21/22",
+        "nombre": "NAPOLI THIRD 21/22",
         "precio": 6500,
         "img": "./img/napoli.png"
     }
