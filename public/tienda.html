@@ -12,6 +12,8 @@
     <title>FUTBOL STORE</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,7 +38,7 @@
                                     <li class="nav-item"><a class="nav-link active" href="tienda.html">Tienda</a></li>
                                     <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
                                 </ul>
-                                <a href="" class="main-header__link"><i class="fas fa-user"></i></a>
+                                <a href="" class="main-header__link"></a>
                                 <button type="button" id="cart-btn" class="main-header__input btn"
                                     data-bs-toggle="modal" data-bs-target="#exampleModal">
                                     CARRITO<i class="fas fa-shopping-cart"></i>
@@ -61,16 +63,16 @@
                         <div class="modal-body ">
                             <div class="row  modal-header text-center">
                                 <div class="col-3">
-                                    <h6>PRODUCTO</h6>
+                                    <h6 class="modal-options">PRODUCTO</h6>
                                 </div>
                                 <div class="col-3">
-                                    <h6>PRECIO</h6>
+                                    <h6 class="modal-options">PRECIO</h6>
                                 </div>
                                 <div class="col-3">
-                                    <h6>CANTIDAD</h6>
+                                    <h6 class="modal-options">CANTIDAD</h6>
                                 </div>
                                 <div class="col-3">
-                                    <h6>ELIMINAR</h6>
+                                    <h6 class="modal-options">ELIMINAR</h6>
                                 </div>
                             </div>
                             <div class="show-cart" id="show-cart">
@@ -98,70 +100,8 @@
 
         <section class="tienda">
             <h1 class="tienda__titlTienda">TIENDA</h1>
-
-            <div class="container tienda__productos">
-                <div class="row align-items-center justify-content-between">
-                    <article class="card d-flex align-items-center col-3">
-                        <div class="card-body">
-                            <h4 class="card-title">AJAX THIRD 21/22</h4>
-                        </div>
-                        <img src="img/ajax.png" class="shirt card-img-top" alt="ajax">
-                        <div class="card-body">
-                            <p class="card-text">$6500</p>
-                        </div>
-                    </article>
-                    <article class="card d-flex align-items-center col-3 m-3">
-                        <div class="card-body">
-                            <h4 class="card-title">REAL MADRID HOME 21/22</h4>
-                        </div>
-                        <img src="img/real.png" class="shirt card-img-top" alt="real">
-                        <div class="card-body">
-                            <p class="card-text">$7500</p>
-                        </div>
-                    </article>
-                    <article class="card d-flex align-items-center col-3">
-                        <div class="card-body">
-                            <h4 class="card-title">RB LEIPZIG AWAY 21/22</h4>
-                        </div>
-                        <img src="img/rbleipzig.png" class="shirt card-img-top" alt="rbleipzig">
-                        <div class="card-body">
-                            <p class="card-text">$7000</p>
-                        </div>
-                    </article>
-                    <article class="card d-flex align-items-center col-3">
-                        <div class="card-body">
-                            <h4 class="card-title">PSG AWAY 21/22</h4>
-                        </div>
-                        <img src="img/psg.png" class="shirt card-img-top" alt="psg">
-                        <div class="card-body">
-                            <p class="card-text">$7000</p>
-                        </div>
-                    </article>
-                    <article class="card d-flex align-items-center col-3 m-3">
-                        <div class="card-body">
-                            <h4 class="card-title">BORUSSIA AWAY 21/22</h4>
-                        </div>
-                        <img src="img/borussia.png" class="shirt card-img-top" alt="borussia">
-                        <div class="card-body">
-                            <p class="card-text">$7000</p>
-                        </div>
-                    </article>
-                    <article class="card d-flex align-items-center col-3 m-3">
-                        <div class="card-body">
-                            <h4 class="card-title">NAPOLI THIRD 21/22</h4>
-                        </div>
-                        <img src="img/napoli.png" class="shirt card-img-top" alt="napoli">
-                        <div class="card-body">
-                            <p class="card-text">$6500</p>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <main class="main">
+            <main class="main">
             <div class="container_product">
-                <h2 class="main-title">Especial los Simpson</h2>
                 <section class="container-products">
                     <!--Aqui va el codigo de productos-->
                 </section>
@@ -170,6 +110,8 @@
             </div>
         </main>
         <!--Fin del modal del carrito-->
+    </section>
+
         <footer class="footer py-4">
             <div class="container">
                 <div>
